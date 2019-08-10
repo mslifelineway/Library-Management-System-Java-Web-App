@@ -1,0 +1,137 @@
+/*
+   All the responsive coding goes here...
+
+*/
+
+@media(max-width: 993px){
+  
+    #intro h2{ 
+        margin: 10px 10px;
+        margin-top: 70px;
+        padding: 0 15px;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+      }
+      #intro p{
+        margin: 5px 10px;
+        padding: 0 15px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+          
+      }
+}
+
+@media(max-width: 768px){
+   
+    #intro {
+        height: 120vh ;
+      }
+    
+    #intro h2,p{ 
+        margin: 5px 10px;
+        padding: 0 15px;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+      }
+    #intro .intro-text {
+        position: relative;
+        left: 0;
+        top: 50px;
+        right: 0;
+      }
+    #intro .product-screens {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        text-align: center;
+        width: 100%;
+        height: 95%;
+        margin: 0 auto;
+      }
+
+    #vertical-line-divider{
+    width: 90%;
+    background: #494949;
+    height: 2px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+  
+}
+
+@media(max-width: 475px){
+    #intro {
+        height: 110vh;
+    }
+    
+    
+    #intro .intro-text {
+        top:40px;
+        height: calc(20%-20px);
+    }
+    #intro .product-screens {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+      }
+     #intro h2{
+         margin-top: 40px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 15px;
+      }
+      #intro p{
+        font-size: 12px;
+        line-height: 10px;
+        margin: 5px;
+        line-height: 1.5em;
+        color: #494949;
+      }
+    
+}
+
+@media(max-width: 425px){
+    #header{
+        background:linear-gradient(180deg,rgba(29, 119, 215, 0.7),#1dc8cd);
+        height: 50px;
+        text-align: center;
+        vertical-align: central;
+    }
+    #header #logo h1 {
+        font-size: 25px;
+        padding: 0;
+        line-height: 0.5;
+      }
+    #login-reg-row{
+        padding: 0px;
+        margin: 0px auto;
+    }
+    
+    fieldset.fieldset-border {
+        padding: 0 0.5em 0.5em 0.5em !important;
+        margin: 0 0 1.5em 0 !important;
+    }
+
+    /*------- css for student-reg-row-----*/
+    .student-reg-row fieldset.fieldset-border {
+        padding: 0 0.5em 0.5em 0.5em !important;
+        margin: 0 0 1.5em 0 !important;
+    }
+  
+}
+
+@media(max-width: 320px){
+    
+    fieldset.fieldset-border {
+        padding: 0 0.2em 0.2em 0.2em !important;
+        margin: 0 0 0.5em 0 !important;
+    }
+    
+    
+}

@@ -1,0 +1,277 @@
+
+.top-navbar{
+    transition: 0.5s;
+    height: 100px;
+    background: transparent !important;
+    display: inline;
+}
+
+.middle-section{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    background: linear-gradient(45deg, rgba(29, 132, 235, 0.8), rgba(29, 200, 205, 0.8)), url("../img/gallery/image1.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+.top-navbar.scrolled{
+    background: linear-gradient(180deg,rgba(29, 119, 215, 0.8),#1dc8cd) !important;
+    padding: 10px 5px;
+    height: 80px;
+    transition: all 0.5s;
+    /* transform: rotate(180deg); */
+}
+
+.content{
+    padding-top: 100px;
+}
+#searchForm input{
+    margin-top: 15px;
+    margin-right: 5px;
+    padding: 2px 4px;
+}
+
+#searchForm ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+#searchForm  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+#searchForm ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+#searchForm input[type=submit]{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 4px 15px;
+    border-radius: 30px;
+    transition: 0.5s;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+#searchForm input[type=text]{
+    width: 60%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 4px 15px;
+    border-radius: 30px;
+    transition: 0.5s;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+
+.view-section{
+    padding: 5px;
+    transition: all 0.5s; 
+}
+.menu-div{
+    padding: 0;
+}
+.menu-div ul{
+    border-right: 1px solid #fff;
+    color: #fff;
+    margin: 0;
+    padding:5px;
+}
+.menu-div ul li{
+    display: block;
+    color: #fff;
+    margin: 5px;
+    padding: 0px;
+
+}
+.menu-div ul li a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;   
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    display: block;
+    border-radius: 30px;
+    transition: 0.5s;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+
+}
+
+.menu-div ul li img{
+    width: 0px; height: 0px;
+}
+
+.menu-divl li:hover{
+    letter-spacing: 0px;
+    display: block;
+    padding: 8px 5px;
+    border-radius: 30px;
+    transition: 0.5s;
+    border: 2px solid pink;
+    color: pink;
+    transition: 0.8s;
+    cursor: pointer;
+    background:linear-gradient(180deg,rgba(29, 119, 215, 0.8),#1dc8cd);
+}
+.menu-div ul li a:hover{
+    padding: 8px 10px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border: 2px solid pink;
+    background: transparent;
+    color: pink;
+    transition: 0.8s;
+    cursor: pointer;
+    background:linear-gradient(180deg,rgba(29, 119, 215, 0.8),#1dc8cd);
+
+}
+.rounded_border{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: 0.5s;
+    margin: 5px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+.rectangle_button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 5px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+/*-- css for place holder for any where --*/
+.input ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.input  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.input ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+
+/*-- ----------- responsive coding ------------- --*/
+
+@media(max-width: 768px){
+    #searchForm input[type=submit]{
+        font-size: 16px;
+        padding: 4px 10px;
+    }
+    #searchForm input[type=text]{
+        width: 55%;
+    }
+    /*--- for avoiding horizontal scrolling at screen size 768px */
+    .menu-div{
+        overflow: hidden;
+        height: 80px;
+        white-space: nowrap;
+        background: transparent;
+    }
+    .menu-div ul{
+        border: 0px;
+        width: 100%;
+    }
+    .menu-div ul li img{
+        width: 30px; height: 30px;
+    }
+
+    .menu-div ul li a{
+        font-size: 0px;
+        letter-spacing: 0px;
+        display: inline-block;
+        padding: 8px 8px;
+        border-radius: 30px;
+        color: #fff;
+        margin-left: calc(100vw/24);
+        margin-right: calc(100vw/24);
+    }
+    .menu-div ul li {
+        display: inline-block;
+    }
+
+    .menu-div ul li a:hover {
+        letter-spacing: 0px;
+        display: inline-block;
+        padding: 9px 9px;
+        border-radius: 30px;
+        transition: 0.5s;
+        border: 2px solid #4B0082;
+        transition: 0.8s;
+        cursor: pointer;
+        background:linear-gradient(180deg,rgba(29, 119, 215, 0.8),#1dc8cd);
+    }
+    .menu-div{
+        border-bottom: 2px solid #fff;
+    }
+
+}
+
+@media(max-width: 426px){
+    #searchForm input[type=submit]{
+        font-size: 16px;
+        padding: 4px 10px;
+        letter-spacing: 0px;
+    }
+    #searchForm input[type=text]{
+        width: 55%;
+    }
+    /*  /*--- for horizontal scrolling at screen size 425px */
+    .menu-div{
+        overflow: auto;
+        height: 80px;
+        white-space: nowrap;
+    } 
+
+    .menu-div ul li a{
+        margin-left: calc(100vw/35);
+        margin-right: calc(100vw/35);
+    }
+}
+@media(max-width: 376px){
+    .menu-div ul li a{
+        margin-left: calc(100vw/55);
+        margin-right: calc(100vw/58);
+    }
+
+}
+@media(max-width: 320px){
+    #searchForm input[type=submit]{
+        font-size: 16px;
+        padding: 4px 10px;
+        letter-spacing: 0px;
+    }
+    #searchForm input[type=text]{
+        width: 45%;
+    }
+    .menu-div ul li a{
+        margin-left: calc(100vw/35);
+        margin-right: calc(100vw/35);
+    }
+}

@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Mar, 2019, 8:33:31 PM
+    Author     : janeman
+*/
+#intro{
+    height: 110vh ;
+}
+
+#intro .intro-text {
+  top: 50px;
+  height: calc(30% - 60px);
+}
+
+#intro .product-screens {
+
+    width: 100%;
+    height: 70%;
+}
+
+/*------------ css for student_reg_form starts ------*/
+@media(max-width: 993px){
+
+}
+
+@media(max-width: 768px){
+    #intro {
+        height: 140vh ;
+    }
+    #intro .intro-text {
+        top:30px;
+        height: calc(20%-60px);
+    }
+    #intro .product-screens {
+        height: 80%;
+    }
+    
+
+}
+
+@media(max-width: 475px){
+    #intro {
+        height: 140vh ;
+    }
+    #intro .intro-text {
+        top:20px;
+        height: calc(20%-60px);
+    }
+    
+}

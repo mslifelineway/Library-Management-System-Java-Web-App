@@ -1,0 +1,123 @@
+/*
+    card design code 
+    
+*/
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: linear-gradient(45deg, rgba(29, 132, 235, 0.9), rgba(29, 200, 205, 0.9));
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 15px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgba(29, 200, 205, 0.9));
+    -moz-box-shadow: 5px 7px 9px -4px linear-gradient(45deg, rgba(29, 132, 235, 0.1), rgba(29, 200, 205, 0.5));
+    box-shadow: 5px 7px 9px -4px rgba(29, 200, 205, 0.5));;
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 350px;
+    width: 100%;
+    background: linear-gradient(45deg, rgba(29, 132, 235, 0.9), rgba(29, 200, 205, 0.9));
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body p img {
+    width: 80%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+/*--- customized css -- */
+/*.frontside .card h4,
+.backside .card h4{
+    color: pink;
+}*/
+.frontside , .backside{
+    width: 100%;
+}
+.frontside .card p,
+.backside .card p{
+    margin: 5px;
+}
+.backside .card .card-body,
+.frontside .card .card-body{
+    padding: 10px 2px 2px 2px;
+    margin: 0px;
+}
+
+#dept{
+    color: #d6f7f5;
+    margin-top: 15px;
+}
+ 

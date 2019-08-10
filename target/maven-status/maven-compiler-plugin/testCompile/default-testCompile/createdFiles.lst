@@ -1,0 +1,13 @@
+com\cits\lms\testing\TestBooksDetailsWithBookNumbers.class
+com\cits\lms\testing\TestBookDetailsWithCountIssuedBooks.class
+com\cits\lms\testing\TestStudentDAOFindById.class
+com\cits\lms\testing\TestTotalIssuedBookByAStudent.class
+com\cits\lms\testing\TestStudentDAOUpdate.class
+com\cits\lms\testing\TestBookDetailsUpdation.class
+com\cits\lms\testing\TestFindAllBookWithoutBookNumbers.class
+com\cits\lms\testing\TestStudentLibrary.class
+com\cits\lms\testing\TestBookDaoImpInsertion.class
+com\cits\lms\testing\TestStudentServiceIsStudentExists.class
+com\cits\lms\testing\TestSingleBookDetailsWithBookNumbersByBookId.class
+com\cits\lms\testing\TestAdminServicesAdminExists.class
+com\cits\lms\testing\TestStudentDAOInsert.class
