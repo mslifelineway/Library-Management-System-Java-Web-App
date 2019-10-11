@@ -14,9 +14,9 @@ public class SpringRootConfig {
     public BasicDataSource getDataSource(){
         BasicDataSource ds = new BasicDataSource();
         ds.setDriverClassName("com.mysql.jdbc.Driver");
-        ds.setUrl("jdbc:mysql://node23886-college-buddy.cloudjiffy.net/college-buddy");
+        ds.setUrl("jdbc:mysql://node23886-college-buddy.cloudjiffy.net/cits_lms");
         ds.setUsername("root");
-        ds.setPassword("lD2FlRhO30");
+        ds.setPassword("DqJLbHdKohxyenW2");
         ds.setMaxTotal(2);
         ds.setInitialSize(1);
         ds.setTestOnBorrow(true);
