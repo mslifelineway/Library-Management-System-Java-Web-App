@@ -16,7 +16,7 @@ public class SpringRootConfig {
         ds.setDriverClassName("com.mysql.jdbc.Driver");
         ds.setUrl("jdbc:mysql://node23886-college-buddy.cloudjiffy.net/cits_lms");
         ds.setUsername("root");
-        ds.setPassword("");
+        ds.setPassword("nvHwYfG1Qn");
         ds.setMaxTotal(2);
         ds.setInitialSize(1);
         ds.setTestOnBorrow(true);
