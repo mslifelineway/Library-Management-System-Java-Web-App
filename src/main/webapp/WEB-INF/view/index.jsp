@@ -71,7 +71,7 @@
                             <script type="text/javascript">
                                 $(document).ready(function () {
                                     $('#open-modal').modal('show');
-                                    $('#info').html("Registration Successed! wait for Account verification by Admin. <br> For more info : contact to the Admin.");
+                                    $('#info').html("Registration Successed! <br> please login and complete your profile for final varification.");
                                 });
                             </script>
                         </c:if>
